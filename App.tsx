@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import LandingPage from './components/LandingPage';
-import AuthPage from './components/AuthPage';
-import Dashboard from './components/Dashboard';
-import PaymentModal from './components/PaymentModal';
+import LandingPage from './components/LandingPage.tsx';
+import AuthPage from './components/AuthPage.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import PaymentModal from './components/PaymentModal.tsx';
 import { User } from './types';
 
 const App: React.FC = () => {
